@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="20" failures="0" name="utils.LinkedListTest" time="0.013" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="18.0.2.1+1-1"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\princ\Dropbox\College\2022-2023\Semester 2\Data Structures\CA\Ongoing\Part 2\Specification\Part2_LinkedLists"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IE"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="test" value="utils.LinkedListTest"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\princ\Dropbox\College\2022-2023\Semester 2\Data Structures\CA\Ongoing\Part 2\Specification\Part2_LinkedLists"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="18.0.2.1+1-1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\princ\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-15\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\NetBeans-15\netbeans\java\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\princ\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 2022.2.2\bin;;."/>
+    <property name="maven.conf" value="C:\Program Files\NetBeans-15\netbeans\java\maven/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="62.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\NetBeans-15\netbeans\java\maven\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\princ"/>
+    <property name="user.timezone" value="Europe/Dublin"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="18"/>
+    <property name="user.name" value="michelle"/>
+    <property name="java.class.path" value="C:\Program Files\NetBeans-15\netbeans\java\maven\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=utils.LinkedListTest -Dmaven.ext.class.path=C:\Program Files\NetBeans-15\netbeans\java\maven-nblib\netbeans-eventspy.jar surefire:test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.2.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="18.0.2.1"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\NetBeans-15\netbeans\java\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="utils.LinkedListTest" name="utils.LinkedListTest.testIndexOf_SongNotInList" time="0.003"/>
+  <testcase classname="utils.LinkedListTest" name="utils.LinkedListTest.testSize_PopulatedList" time="0"/>
+  <testcase classname="utils.LinkedListTest" name="utils.LinkedListTest.testGet_ValidInput_EndOfList" time="0"/>
+  <testcase classname="utils.LinkedListTest" name="utils.LinkedListTest.testGet_BreakingLowerBound" time="0.004"/>
+  <testcase classname="utils.LinkedListTest" name="utils.LinkedListTest.testIndexOf_SongInList" time="0"/>
+  <testcase classname="utils.LinkedListTest" name="utils.LinkedListTest.testRemove_RemovingOneInstance" time="0"/>
+  <testcase classname="utils.LinkedListTest" name="utils.LinkedListTest.testSet_ValidParameters" time="0"/>
+  <testcase classname="utils.LinkedListTest" name="utils.LinkedListTest.testAdd_AddingTwoElements_Song" time="0"/>
+  <testcase classname="utils.LinkedListTest" name="utils.LinkedListTest.testIsEmpty_PopulatedList" time="0.001"/>
+  <testcase classname="utils.LinkedListTest" name="utils.LinkedListTest.testGet_BreakingUpperBound_GreaterThanSize" time="0.001"/>
+  <testcase classname="utils.LinkedListTest" name="utils.LinkedListTest.testGet_BreakingUpperBound_EqualToSize" time="0"/>
+  <testcase classname="utils.LinkedListTest" name="utils.LinkedListTest.testSet_InvalidParameters_BreakingLowerBound" time="0.002"/>
+  <testcase classname="utils.LinkedListTest" name="utils.LinkedListTest.testRemove_RemovingSomethingNotPresent" time="0"/>
+  <testcase classname="utils.LinkedListTest" name="utils.LinkedListTest.testSet_InvalidParameters_BreakingUpperBound_GreaterThanSize" time="0"/>
+  <testcase classname="utils.LinkedListTest" name="utils.LinkedListTest.testSet_InvalidParameters_BreakingUpperBound_EqualToSize" time="0.002"/>
+  <testcase classname="utils.LinkedListTest" name="utils.LinkedListTest.testRemove_RemovingSingleInstanceWhereMultipleExist" time="0"/>
+  <testcase classname="utils.LinkedListTest" name="utils.LinkedListTest.testGet_ValidInput" time="0"/>
+  <testcase classname="utils.LinkedListTest" name="utils.LinkedListTest.testAdd_Song" time="0"/>
+  <testcase classname="utils.LinkedListTest" name="utils.LinkedListTest.testIsEmpty" time="0"/>
+  <testcase classname="utils.LinkedListTest" name="utils.LinkedListTest.testSize_EmptyList" time="0"/>
+</testsuite>
